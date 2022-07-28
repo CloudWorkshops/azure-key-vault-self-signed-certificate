@@ -1,6 +1,6 @@
 # Azure Key Vault Self-Signed Certificate
 
-This is skeleton static website generated using Jekyll
+This is skeleton static website generated using Hugo
 
 We'll modify this project to deploy to Azure Static Web Apps so
 we can use Azure Front Door to apply our custom domain and SSL certificate
