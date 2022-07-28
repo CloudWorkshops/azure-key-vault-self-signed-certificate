@@ -1,0 +1,12 @@
+tasks:
+  - name: app
+    init: |
+      gem install jekyll
+      cd $THEIA_WORKSPACE_ROOT/app
+      bundle install
+    command: |
+      cd $THEIA_WORKSPACE_ROOT/app
+      bundle exec jekyll serve
+ports:
+  - port: 4000
+    onOpen:open-browser
