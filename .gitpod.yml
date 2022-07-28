@@ -1,12 +1,9 @@
 tasks:
   - name: app
     init: |
-      gem install jekyll
-      cd $THEIA_WORKSPACE_ROOT/app
-      bundle install
+      brew install hugo
     command: |
-      cd $THEIA_WORKSPACE_ROOT/app
-      bundle exec jekyll serve
+      hugo server -D
 ports:
-  - port: 4000
+  - port: 1313
     onOpen: open-browser
