@@ -9,4 +9,4 @@ tasks:
       bundle exec jekyll serve
 ports:
   - port: 4000
-    onOpen:open-browser
+    onOpen: open-browser
